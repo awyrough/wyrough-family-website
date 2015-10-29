@@ -2,3 +2,54 @@
     Global Reset
 \*------------------------------------*/
 
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #D3D3D3;
+    text-align: center;
+}
+
+.header {
+  margin-top: 10px; 
+  z-index: 1;
+  text-align: center;
+    .location {
+        font-size: 15px;
+        color: #908a8a;
+        font-family: 'Nunito', sans-serif;
+    }
+    .pull-left {
+        margin-left: 10px;
+    }
+    .pull-center {
+
+    }
+    .pull-right {
+        margin-right: 10px;
+    }
+}
+
+.wyrough-banner {
+    margin-top: 300px;
+    span.name {
+        color: #000;
+        font-size: 80px;
+        font-family: 'Nunito', sans-serif;
+    }
+}
+
+.footer {
+  margin-bottom: 10px; 
+  z-index: 1;
+  text-align: center;
+    .email {
+        font-size: 25px;
+        color: #908a8a;
+        font-family: 'Nunito', sans-serif;
+    }
+    a:hover, a:active {
+        color: #000;
+    }
+}
+
+
