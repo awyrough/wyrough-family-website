@@ -10,7 +10,7 @@ body {
 }
 
 body { 
-  background: url(/assets/img/gafas_small.jpg) no-repeat center center fixed; 
+  background: url(/assets/img/gafas_square.jpg) no-repeat top center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -38,11 +38,9 @@ body {
 }
 
 .wyrough-banner {
-    margin-top: 300px;
-
     span.name {
         color: #FFF;
-        font-size: 50px;
+        font-size: 30px;
         font-family: 'Nunito', sans-serif;
     }
 }
@@ -57,7 +55,7 @@ body {
         font-family: 'Nunito', sans-serif;
     }
     a:hover, a:active {
-        color: #000;
+        color: #FFF;
     }
 }
 
