@@ -9,13 +9,21 @@ body {
     text-align: center;
 }
 
+body { 
+  background: url(/assets/img/gafas_small.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .header {
   margin-top: 10px; 
   z-index: 1;
   text-align: center;
     .location {
         font-size: 15px;
-        color: #908a8a;
+        color: #37FDFC;
         font-family: 'Nunito', sans-serif;
     }
     .pull-left {
@@ -31,9 +39,10 @@ body {
 
 .wyrough-banner {
     margin-top: 300px;
+
     span.name {
-        color: #000;
-        font-size: 80px;
+        color: #FFF;
+        font-size: 50px;
         font-family: 'Nunito', sans-serif;
     }
 }
@@ -44,7 +53,7 @@ body {
   text-align: center;
     .email {
         font-size: 25px;
-        color: #908a8a;
+        color: #37FDFC;
         font-family: 'Nunito', sans-serif;
     }
     a:hover, a:active {
