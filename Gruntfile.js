@@ -75,7 +75,7 @@ module.exports = function (grunt) {
         files: [
           '<%= config.tmp %>/{,*/}*.html',
           '<%= config.tmp %>/styles/{,*/}*.css',
-          '<%= config.app %>/images/{,*/}*'
+          '<%= config.app %>/assets/img/{,*/}*'
         ]
       }
     },
@@ -197,7 +197,7 @@ module.exports = function (grunt) {
           src: [
             '<%= config.dist %>/scripts/{,*/}*.js',
             '<%= config.dist %>/styles/{,*/}*.css',
-            '<%= config.dist %>/images/{,*/}*.*',
+            '<%= config.dist %>/assets/img/{,*/}*.*',
             '<%= config.dist %>/styles/fonts/{,*/}*.*',
             '<%= config.dist %>/*.{ico,png}'
           ]
@@ -221,7 +221,7 @@ module.exports = function (grunt) {
       options: {
         assetsDirs: [
           '<%= config.dist %>',
-          '<%= config.dist %>/images',
+          '<%= config.dist %>/assets/img',
           '<%= config.dist %>/styles'
         ]
       },
@@ -234,9 +234,9 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: '<%= config.app %>/images',
+          cwd: '<%= config.app %>/assets/img',
           src: '{,*/}*.{gif,jpeg,jpg,png}',
-          dest: '<%= config.dist %>/images'
+          dest: '<%= config.dist %>/assets/img'
         }]
       }
     },
@@ -284,7 +284,7 @@ module.exports = function (grunt) {
           dest: '<%= config.dist %>',
           src: [
             '*.{ico,png,txt}',
-            'images/{,*/}*.webp',
+            'assets/img/{,*/}*.webp',
             '{,*/}*.html',
             '!index.html',
             'styles/fonts/{,*/}*.*',
